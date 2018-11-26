@@ -1,0 +1,21 @@
+nav a#navbarDropdown {color: black;}
+
+
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+.footer {
+    position:absolute;
+  
+    width:10%;
+
+}
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
