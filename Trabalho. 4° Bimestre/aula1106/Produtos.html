@@ -1,236 +1,1074 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
 
-    <title> Produtos</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Mercado Livre Produtos</title>
 
-    <link rel="stylesheet" type="text/css" href="cadastro.html">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <body style="background-image: url(img/vai.jpg);background-repeat: no-repeat;background-size: cover; ">
+  <link rel="stylesheet" type="text/css" href="cadastro.html">
 
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
-  <a class="navbar-brand" href="index.html">
+  <link rel="stylesheet" type="text/css" href="oi.css">
 
-    <img src="img/ha.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    relics
 
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
+<body style="background-color:  #dcdcdc ">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#ffeb65;" color>
 
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-      </li>
+    <div class="row">
 
-      <li class="nav-item">
-        <a class="nav-link" href="cadastro.html">Cadastro</a>
-      </li>
+    <div class="col"> 
+          <a class="navbar-brand" href="index.html">
+              <img src="img/capa.png" id="meio" width="130" height="108" class="d-inline-block align-top" alt="">
+          </a>
+    </div>  
+
+    <div class="col">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+    </div>
+
     
 
+      
+          </div>
+
+          <div class="row">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+           <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Produtos
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="Produtos.html">Tecnologia</a>
+                  <a class="dropdown-item" href="Produtos.html">Acéssorios para Veículos</a>
+                  <a class="dropdown-item" href="Produtos.html">Beleza e Cuidade Pessoal</a>
+                  <a class="dropdown-item" href="Produtos.html">Esporte  e Lazer</a>
+                  <a class="dropdown-item" href="Produtos.html">Casa e Eletrodomésticos</a>
+                  <a class="dropdown-item" href="Produtos.html">Ferramentas e Indústria</a>
+                  <a class="dropdown-item" href="Produtos.html">Brinquedos e Bebês</a>
+                  <a class="dropdown-item" href="Produtos.html">Joias e Relógios</a>
+                  <a class="dropdown-item" href="Produtos.html">Supermercado</a>
+                  <a class="dropdown-item" href="Produtos.html">Livros</a>
+                  <a class="dropdown-item" href="Produtos.html">Moda</a>
+                  <a class="dropdown-item" href="Produtos.html">Lojas oficiais</a>
+                  <a class="dropdown-item" href="Produtos.html">Veículos</a>
+                  <a class="dropdown-item" href="Produtos.html">Imóveis</a>
+                  <a class="dropdown-item" href="Produtos.html">Ver mais categorias</a>
+
+              </div>
+
+           </li>
+
+           <li class="nav-item active">
+
+             </li>
+
+             <div class="row">
+
+             
+
+             <li class="nav-item">
+              <div class="col">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+              </div>
+
+              <div class="col">
+                <a class="nav-link" href="Produtos.html">Mercado</a>
+              </div>
+
+              <div class="col-2">
+                <a class="nav-link" href="carrinho.html">Carrinho</a>
+              </div>
 
 
-<li class="nav-item dropdown">
+              <div class="col-2">
+                <div class="dropdown-divider"></div>
+              </div>
+                <a class="dropdown-item" href="login.html">Login</a>
+            </li>
 
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Produtos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Produtos.html">Mercado</a>
-          <a class="dropdown-item" href="carrinho.html">Carrinho</a>
-          <a class="dropdown-item" href="envio.html">Envio</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="login.html">Login</a>
-        </div>
-      </li>
+          </div>
+          
 
+        </ul>
 
-
-
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-	
-
-<div class="container text-black" >
-  
-<div class="card-deck">
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/truman.png" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Mundo de Truman</h5>
-      <p class="card-text">Globo replica identica ao mundo de Truman do filme " O show de Truman ". 
-        <span class="badge badge-danger"> Item de colecionador</span></p></p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000 </a>
+        
+        
+      </div>
     </div>
-  </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/predador2.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Mascara de um predador</h5>
-      <p class="card-text">Original usada no filme de 1995 estrelado pelo falecido Robin Williams.
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000.000.780 </a>
+  </nav>
+
+
+    <div class="row">
+      <div class="col">
+
+        <img src="img/ca.jpg">
+
+      </div>
     </div>
+
+    <br>
+
+
+
+     <div class="container">
+
+
+          <div class="row">
+
+                <div class="col-4 ">
+
+                  <h3>Oferta da semana</h3>
+
+                   <p class="text-secondary">78  resultados</p>
+
+                   <br>
+
+                   <h6>Organizar Anúncios</h6>
+
+                   <div class="row">
+
+                   <div class="col">
+
+                 
+
+                   <p class="text-secondary">Mais relevantes</p>
+
+                 </div>
+
+                 <div class="col-7">
+
+                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  
+                            </a>
+
+                  
+
+                   <div class="dropdown-menu" >
+                             
+
+                              <a class="dropdown-item" href="Produtos.html">Hora da festa</a>
+                              <a class="dropdown-item" href="Produtos.html">Amantes da cozinha</a>
+                              <a class="dropdown-item" href="Produtos.html">Vida zen</a>
+                              <a class="dropdown-item" href="Produtos.html">Doce espera</a>
+                              <a class="dropdown-item" class="tex" href="Produtos.html">Geek</a>
+
+                        </div>
+
+                    </div>
+                  </div>
+
+
+                  <p>Lojas oficiais</p>
+
+                  <div class="row" id="galeria">
+
+                    <div class="col-2"><img src="img/f.jpg"></div>
+
+                    <div class="col-2"><img src="img/f1.jpg"></div>
+
+                    <div class="col-2"><img src="img/f2.jpg"></div>
+
+                  
+                </div>
+
+                  <br>
+
+                  <div class="row" id="galeria">
+                    <div class="col-2"><img src="img/f3.jpg"></div>
+
+                    <div class="col-2"><img src="img/f4.jpg"></div>
+
+                    <div class="col-2"><img src="img/f5.jpg"></div>
+
+                  </div>
+
+                  <h7><a href="">Ver Todos</a></h7>
+
+
+                  <p><b>Categorias</b></p>
+
+                  <p class="text-secondary">Acessórios para Veículos (13)</p>
+                  <p class="text-secondary">Casa, Móveis e Decoração (10)</p>
+                  <p class="text-secondary">Esportes e Fitness (9)</p>
+                  <p class="text-secondary">Ferramentas e Construção (9)</p>
+                  <p class="text-secondary">Informática (8)</p>
+                  <p class="text-secondary">Eletrônicos, Áudio e Vídeo (9)</p>
+                  <p class="text-secondary">Calçados, Roupas e Bolsas (6)</p>
+                  <p class="text-secondary">Beleza e Cuidado Pessoal (4)</p>
+                  <p class="text-secondary">Celulares e Telefones (4)</p>
+
+                  <h7><a href="">Ver Todos</a></h7>
+
+                  <br>
+
+                  <p><b>Pagamento</b></p>
+                  <p class="text-secondary">Sem juros (44)</p>
+
+                  <br>
+
+                  <p><b>descontos</b></p>
+
+
+                  <p class="text-secondary">Mais de 10% off (34)</p>
+                  <p class="text-secondary">Mais de 10% off (22)</p>
+                  <p class="text-secondary">Mais de 10% off (12)</p>
+                  <p class="text-secondary">Mais de 10% off (17)</p>
+
+
+                  <p><b>Custo de Frete</b></p>
+                   <p class="text-secondary">Gratis (53)</p>
+
+                  <br>
+
+                  <p><b>Tipos de envio</b></p>
+                  <a href=""><b>FULL </b></a> (11)
+
+                  <br>
+
+                  <p><b>Preço</b></p>
+
+                  <p class="text-secondary">Até $150 (22)</p>
+                  <p class="text-secondary">$150 a $700 (30)</p>
+                  <p class="text-secondary">Mais de $700 (26)</p>
+
+
+                  <br>
+
+                  <p><b>Localização</b></p>
+
+                  <p class="text-secondary">São Paulo (44)</p>
+                  <p class="text-secondary">Espírito Santo (11)</p>
+                  <p class="text-secondary">Santa Catarina (8)</p>
+                  <p class="text-secondary">Paraná (5)</p>
+                  <p class="text-secondary">Rio de Janeiro (4)</p>
+                  <p class="text-secondary">Minas Gerais (3)</p>
+                  <p class="text-secondary">Pernambuco (2)</p>
+                  <p class="text-secondary">Mato Grosso do Sul (1)</p>
+
+                  <br>
+
+                  <p><b>Mais especializações</b></p>
+                  <p class="text-secondary">Melhores Vendedores (67)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div> 
+
+
+
+                  <div class="col">
+
+                       <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po2.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po4.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po6.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/titanic.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/sofa.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/cadeira.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/celu.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po2.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po4.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po6.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/titanic.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/sofa.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/cadeira.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/celu.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po2.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po4.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po6.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/titanic.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/sofa.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/cadeira.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/celu.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po2.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po4.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po6.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/titanic.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/sofa.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro8.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/po5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro5.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/pro3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div>
+
+                           <br>
+
+                           <div class="card-deck"  >
+
+                             <div class="card" style="width: 18rem;" id="galeria" >
+
+                            
+                              <img class="card-img-top" src="img/cadeira.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                              
+
+                              </div>
+
+                               <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/celu.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                  
+
+                              </div>
+
+
+                                <div class="card" id="galeria" >
+
+                              
+                                   <img class="card-img-top" src="img/po3.jpg?text=Image cap" alt="Imagem de capa do card">
+
+                                       
+                               
+                                 </div>
+
+
+                           </div> 
+
+                           <br>
+
+
+                     <nav aria-label="Navegação de página exemplo">
+                        <ul class="pagination justify-content-end">
+                          
+                          <li class="page-item"><a class="page-link" href="Produtos.html">1</a></li>
+                          <li class="page-item"><a class="page-link" href="Produtos.html">2</a></li>
+                          
+                          <li class="page-item">
+                            <a class="page-link" href="#">Próximo</a>
+                          </li>
+                        </ul>
+                  </nav>
+
+
+
+
+
+               
+                    </div>
+
+                    <br>
+
+                  
+
+
+
+
+
+
+
+
+            
+
+
+    </div> 
+
   </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/Gato.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Ossos do gato de " O poderoso chefão"</h5>
-      <p class="card-text">Estes são os ossos verdadeiros do gato que fez o filme ser um marcou na história do cinema.
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-      <a href="#" class="btn btn-primary">R$ 1.000.000.000.900 </a>
-    </div>
-  </div>
+
+  <br>
+
+
+
+<!--Rodapé-->
+
+<div class="row" style="background-color: white;">
+<footer>
+
+  <img src="img/du.jpg">
+
+
+
+</footer>
 </div>
 
-<br>
+   <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="assets/js/vendor/jquery-slim.min.js"></script>
+      <script src="assets/js/vendor/popper.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="assets/js/vendor/holder.min.js"></script>
+      <script>
+        Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+        });
+      </script>
 
-<div class="container text-black" >
-  
-<div class="card-deck">
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/garra.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Garra e Colar</h5>
-      <p class="card-text">Original usados pela Hugh Jackman no filme X-Men: Origens - Wolverine de 2009 . 
-        <span class="badge badge-danger"> Item de colecionador</span></p></p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000.890 </a>
-    </div>
-  </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/titanic.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Titanic</h5>
-      <p class="card-text">Colar original usado no filme Titanic.
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000.000.780 </a>
-    </div>
-  </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/pirata.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Bussola do jack sparrow</h5>
-      <p class="card-text">Bussola original usada pelo ator johnny depp no 2° filme de Piratas do Caribe.
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-      <a href="#" class="btn btn-primary">R$ 1.000.000.000.900 </a>
-    </div>
-  </div>
-</div>
-
-<br>
-
-<div class="container text-black" >
-  
-<div class="card-deck">
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/faunoo.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">1° modelo da mascara do fauno</h5>
-      <p class="card-text">Original do filme " O labirinto do Fauno. 
-        <span class="badge badge-danger"> Item de colecionador</span></p></p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000.890 </a>
-    </div>
-  </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/Jumanji.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">jumanji</h5>
-      <p class="card-text">Original usada no filme de 1995 estrelado pelo falecido Robin Williams.
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-     <a href="#" class="btn btn-primary">R$ 1.000.000.000.780 </a>
-    </div>
-  </div>
-  <div class="card" style="border-radius: 60px;">
-    <img class="card-img-top" src="img/wile.jpg" alt="Card image cap" style="border-radius: 60px;" width="400" height="435" class="d-inline-block align-top" >
-    <div class="card-body">
-      <h5 class="card-title">Cartola do willy wonka </h5>
-      <p class="card-text">Cartola original usada pelo personagem willy wonka atuado por Johnny Depp no filme de 2005 .
-      <span class="badge badge-danger"> Item de colecionador</span></p>
-    </p>
-      <a href="#" class="btn btn-primary">R$ 1.000.000.000. </a>
-    </div>
-  </div>
-</div>
-
-<br>
-
-<nav aria-label="...">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <span class="page-link">Previous</span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active">
-      <span class="page-link">
-        2
-        <span class="sr-only">(current)</span>
-      </span>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Next</a>
-    </li>
-  </ul>
-</nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/holder.min.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
-  </body>
+</body>
 </html>

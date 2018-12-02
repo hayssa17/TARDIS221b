@@ -1,5 +1,4 @@
-nav a#navbarDropdown {color: black;}
-
+nav #pesquisa{width: 210%;}
 
 
 .geral {
@@ -29,3 +28,6 @@ nav a#navbarDropdown {color: black;}
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+p #menor{font-size: 21px;}
+
